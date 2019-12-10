@@ -1,7 +1,4 @@
 <?php
-namespace Application\Controller\Helpers;
-
-use Exception;
 
 class SolveGoalSeek{
 
@@ -13,7 +10,7 @@ class SolveGoalSeek{
      * @param integer|float $aGoalValue Value expected
      * @param array $additionalCallData Array with additional data to formula calc
      * @return float
-     * @throws Exception
+     * @throws \Exception
      */
     public function seekGoal($aFormula,$actualValue,$aGoalValue, $additionalCallData = null){
         $fValue = 0.0;
@@ -38,7 +35,7 @@ class SolveGoalSeek{
      * @param double $nX returned calculed value
      * @param null $additionalData
      * @return bool
-     * @throws Exception
+     * @throws \Exception
      */
     private function Solver($nF, $nV, &$gV, &$nX, $additionalData = null){
 
@@ -185,7 +182,7 @@ class SolveGoalSeek{
         //$nV = $fSaveVal;
         if ( !$bDoneIteration )
         {
-            throw new Exception("Interpreter: NA() not available condition, not a real error", 1);
+            throw new \Exception("Interpreter: NA() not available condition, not a real error", 1);
         }
 
         return $bRet;

@@ -1,6 +1,10 @@
 # PhpGoalSeek
 
 - Php function to simulate Goal Seek from libre office using the Regula Falsi method.
+- Install
+ ```bash
+ composer require kidjapa/php-goalseek
+ ```
 
 
 ## In Libre office

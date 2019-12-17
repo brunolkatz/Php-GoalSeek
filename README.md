@@ -15,3 +15,20 @@ bool ScDocument::Solver(SCCOL nFCol, SCROW nFRow, SCTAB nFTab,
                         )
 ```
 
+## Sample
+
+```php
+$goalSeek = new SolveGoalSeek();
+
+$getValue = 0;
+$getValue = $goalSeek->seekGoal(
+    function($value, $data){
+        return sqrt($value);
+    },
+    16,
+    20
+);
+
+echo "------------- results ------------- \n";
+echo "Result: ".$getValue."\n"; // Expect: 400
+```

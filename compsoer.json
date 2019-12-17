@@ -1,0 +1,22 @@
+{
+    "name": "kidjapa/php-goalseek",
+    "description": "A simple goalseek function for PHP. Using the goalseek function from Libre Office",
+    "keywords": ["goalseek", "libreoffice", "calc"],
+    "homepage": "https://github.com/kidjapa/Php-GoalSeek",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bruno Luiz K.",
+            "email": "brunoluizkatz@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Kidjapa\\": "src/"
+        }
+    }
+}

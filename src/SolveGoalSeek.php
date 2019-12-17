@@ -1,5 +1,7 @@
 <?php
 
+namespace Kidjapa;
+
 class SolveGoalSeek{
 
     const M_PI_2 = 1.57079632679489661923;

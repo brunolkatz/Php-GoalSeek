@@ -1,4 +1,4 @@
-# PhpGoalSeek
+# Php-GoalSeek
 
 - Php function to simulate Goal Seek from libre office using the Regula Falsi method.
 - Install

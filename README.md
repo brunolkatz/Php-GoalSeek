@@ -25,12 +25,13 @@ bool ScDocument::Solver(SCCOL nFCol, SCROW nFRow, SCTAB nFTab,
 $goalSeek = new SolveGoalSeek();
 
 $getValue = 0;
+
 $getValue = $goalSeek->seekGoal(
     function($value, $data){
         return sqrt($value);
     },
-    16,
-    20
+    16,  // The Actual Value
+    20   // The Goal Value
 );
 
 echo "------------- results ------------- \n";

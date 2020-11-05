@@ -21,5 +21,7 @@
         "psr-4": {
             "Kidjapa\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
